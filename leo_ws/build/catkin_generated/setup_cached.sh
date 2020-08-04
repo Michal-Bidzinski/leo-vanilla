@@ -7,4 +7,7 @@
 # new environment variables
 
 # modified environment variables
-export PWD="/home/krzysztof/University/ERC2020/DEPLOY1/leo-vanilla/leo_ws/build"
+export CMAKE_PREFIX_PATH="/home/michal/Desktop/leo_my/leo-vanilla/leo_ws/devel:$CMAKE_PREFIX_PATH"
+export PWD="/home/michal/Desktop/leo_my/leo-vanilla/leo_ws/build"
+export ROSLISP_PACKAGE_DIRECTORIES="/home/michal/Desktop/leo_my/leo-vanilla/leo_ws/devel/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
+export ROS_PACKAGE_PATH="/home/michal/Desktop/leo_my/leo-vanilla/leo_ws/src:$ROS_PACKAGE_PATH"

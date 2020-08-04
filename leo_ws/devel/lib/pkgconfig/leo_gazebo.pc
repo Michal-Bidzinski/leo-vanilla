@@ -1,4 +1,4 @@
-prefix=/home/krzysztof/University/ERC2020/DEPLOY1/leo-vanilla/leo_ws/devel
+prefix=/home/michal/Desktop/leo_my/leo-vanilla/leo_ws/devel
 
 Name: leo_gazebo
 Description: Description of leo_gazebo

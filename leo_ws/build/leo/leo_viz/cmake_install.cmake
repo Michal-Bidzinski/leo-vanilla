@@ -1,8 +1,8 @@
-# Install script for directory: /home/krzysztof/University/ERC2020/DEPLOY1/leo-vanilla/leo_ws/src/leo/leo_viz
+# Install script for directory: /home/michal/Desktop/leo_my/leo-vanilla/leo_ws/src/leo/leo_viz
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/krzysztof/University/ERC2020/DEPLOY1/leo-vanilla/leo_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/michal/Desktop/leo_my/leo-vanilla/leo_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -37,26 +37,31 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
   set(CMAKE_CROSSCOMPILING "FALSE")
 endif()
 
+# Set default install directory permissions.
+if(NOT DEFINED CMAKE_OBJDUMP)
+  set(CMAKE_OBJDUMP "/usr/bin/objdump")
+endif()
+
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/krzysztof/University/ERC2020/DEPLOY1/leo-vanilla/leo_ws/build/leo/leo_viz/catkin_generated/installspace/leo_viz.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/michal/Desktop/leo_my/leo-vanilla/leo_ws/build/leo/leo_viz/catkin_generated/installspace/leo_viz.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/leo_viz/cmake" TYPE FILE FILES
-    "/home/krzysztof/University/ERC2020/DEPLOY1/leo-vanilla/leo_ws/build/leo/leo_viz/catkin_generated/installspace/leo_vizConfig.cmake"
-    "/home/krzysztof/University/ERC2020/DEPLOY1/leo-vanilla/leo_ws/build/leo/leo_viz/catkin_generated/installspace/leo_vizConfig-version.cmake"
+    "/home/michal/Desktop/leo_my/leo-vanilla/leo_ws/build/leo/leo_viz/catkin_generated/installspace/leo_vizConfig.cmake"
+    "/home/michal/Desktop/leo_my/leo-vanilla/leo_ws/build/leo/leo_viz/catkin_generated/installspace/leo_vizConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/leo_viz" TYPE FILE FILES "/home/krzysztof/University/ERC2020/DEPLOY1/leo-vanilla/leo_ws/src/leo/leo_viz/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/leo_viz" TYPE FILE FILES "/home/michal/Desktop/leo_my/leo-vanilla/leo_ws/src/leo/leo_viz/package.xml")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/leo_viz/launch" TYPE DIRECTORY FILES "/home/krzysztof/University/ERC2020/DEPLOY1/leo-vanilla/leo_ws/src/leo/leo_viz/launch/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/leo_viz/launch" TYPE DIRECTORY FILES "/home/michal/Desktop/leo_my/leo-vanilla/leo_ws/src/leo/leo_viz/launch/")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/leo_viz/rviz" TYPE DIRECTORY FILES "/home/krzysztof/University/ERC2020/DEPLOY1/leo-vanilla/leo_ws/src/leo/leo_viz/rviz/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/leo_viz/rviz" TYPE DIRECTORY FILES "/home/michal/Desktop/leo_my/leo-vanilla/leo_ws/src/leo/leo_viz/rviz/")
 endif()
 

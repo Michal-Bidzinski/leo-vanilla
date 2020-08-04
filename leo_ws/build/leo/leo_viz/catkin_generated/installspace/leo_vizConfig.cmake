@@ -67,14 +67,14 @@ set(leo_viz_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(leo_viz_SOURCE_PREFIX /home/krzysztof/University/ERC2020/DEPLOY1/leo-vanilla/leo_ws/src/leo/leo_viz)
-  set(leo_viz_DEVEL_PREFIX /home/krzysztof/University/ERC2020/DEPLOY1/leo-vanilla/leo_ws/devel)
+  set(leo_viz_SOURCE_PREFIX /home/michal/Desktop/leo_my/leo-vanilla/leo_ws/src/leo/leo_viz)
+  set(leo_viz_DEVEL_PREFIX /home/michal/Desktop/leo_my/leo-vanilla/leo_ws/devel)
   set(leo_viz_INSTALL_PREFIX "")
   set(leo_viz_PREFIX ${leo_viz_DEVEL_PREFIX})
 else()
   set(leo_viz_SOURCE_PREFIX "")
   set(leo_viz_DEVEL_PREFIX "")
-  set(leo_viz_INSTALL_PREFIX /home/krzysztof/University/ERC2020/DEPLOY1/leo-vanilla/leo_ws/install)
+  set(leo_viz_INSTALL_PREFIX /home/michal/Desktop/leo_my/leo-vanilla/leo_ws/install)
   set(leo_viz_PREFIX ${leo_viz_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/krzysztof/University/ERC2020/DEPLOY1/leo-vanilla/leo_ws/install/lib;/home/krzysztof/University/ERC2020/DEPLOY1/leo-vanilla/leo_ws/devel/lib;/home/krzysztof/University/ERC2020/leo-vanilla/leo_ws/devel/lib;/opt/ros/melodic/lib)
+    foreach(path /home/michal/Desktop/leo_my/leo-vanilla/leo_ws/install/lib;/home/michal/catkin_ws6/devel/lib;/opt/ros/melodic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

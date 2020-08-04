@@ -1,8 +1,8 @@
-# Install script for directory: /home/krzysztof/University/ERC2020/DEPLOY1/leo-vanilla/leo_ws/src/leo/leo_joy_example
+# Install script for directory: /home/michal/Desktop/leo_my/leo-vanilla/leo_ws/src/leo/leo_joy_example
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/krzysztof/University/ERC2020/DEPLOY1/leo-vanilla/leo_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/michal/Desktop/leo_my/leo-vanilla/leo_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -37,18 +37,23 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
   set(CMAKE_CROSSCOMPILING "FALSE")
 endif()
 
+# Set default install directory permissions.
+if(NOT DEFINED CMAKE_OBJDUMP)
+  set(CMAKE_OBJDUMP "/usr/bin/objdump")
+endif()
+
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/krzysztof/University/ERC2020/DEPLOY1/leo-vanilla/leo_ws/build/leo/leo_joy_example/catkin_generated/installspace/leo_joy_example.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/michal/Desktop/leo_my/leo-vanilla/leo_ws/build/leo/leo_joy_example/catkin_generated/installspace/leo_joy_example.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/leo_joy_example/cmake" TYPE FILE FILES
-    "/home/krzysztof/University/ERC2020/DEPLOY1/leo-vanilla/leo_ws/build/leo/leo_joy_example/catkin_generated/installspace/leo_joy_exampleConfig.cmake"
-    "/home/krzysztof/University/ERC2020/DEPLOY1/leo-vanilla/leo_ws/build/leo/leo_joy_example/catkin_generated/installspace/leo_joy_exampleConfig-version.cmake"
+    "/home/michal/Desktop/leo_my/leo-vanilla/leo_ws/build/leo/leo_joy_example/catkin_generated/installspace/leo_joy_exampleConfig.cmake"
+    "/home/michal/Desktop/leo_my/leo-vanilla/leo_ws/build/leo/leo_joy_example/catkin_generated/installspace/leo_joy_exampleConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/leo_joy_example" TYPE FILE FILES "/home/krzysztof/University/ERC2020/DEPLOY1/leo-vanilla/leo_ws/src/leo/leo_joy_example/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/leo_joy_example" TYPE FILE FILES "/home/michal/Desktop/leo_my/leo-vanilla/leo_ws/src/leo/leo_joy_example/package.xml")
 endif()
 

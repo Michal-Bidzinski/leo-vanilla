@@ -11,7 +11,7 @@
 
 # since this file is sourced either use the provided _CATKIN_SETUP_DIR
 # or fall back to the destination set at configure time
-: ${_CATKIN_SETUP_DIR:=/home/krzysztof/University/ERC2020/DEPLOY1/leo-vanilla/leo_ws/devel}
+: ${_CATKIN_SETUP_DIR:=/home/michal/Desktop/leo_my/leo-vanilla/leo_ws/devel}
 _SETUP_UTIL="$_CATKIN_SETUP_DIR/_setup_util.py"
 unset _CATKIN_SETUP_DIR
 

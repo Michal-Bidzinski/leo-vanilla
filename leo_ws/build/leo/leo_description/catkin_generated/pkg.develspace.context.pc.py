@@ -4,5 +4,5 @@ PROJECT_PKG_CONFIG_INCLUDE_DIRS = "".split(';') if "" != "" else []
 PROJECT_CATKIN_DEPENDS = "".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "".split(';') if "" != "" else []
 PROJECT_NAME = "leo_description"
-PROJECT_SPACE_DIR = "/home/krzysztof/University/ERC2020/DEPLOY1/leo-vanilla/leo_ws/devel"
+PROJECT_SPACE_DIR = "/home/michal/Desktop/leo_my/leo-vanilla/leo_ws/devel"
 PROJECT_VERSION = "0.3.0"
